@@ -1,0 +1,15 @@
+
+footer{
+    margin-top: 10px;
+    background-color: #26088a;
+    text-align: center;
+    color: white;
+}
+footer a {
+    text-align: center;
+    line-height: 12%;
+    justify-content:center;
+    margin: 15px;
+    
+  }
+ 
