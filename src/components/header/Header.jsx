@@ -1,8 +1,11 @@
 import "./Header.css"
+import React from 'react';
+import Navbar from "../Navbar/navbar";
 function Header() {
     return(
         <>
         <header>
+        <Navbar id ="navBr" />
         <label className="pagename">Travel Destination</label>
         <nav>
             <a href="https://twitter.com/HamzaHazaimeh2">My Twitter</a>
@@ -14,3 +17,4 @@ function Header() {
     )
   };
   export default Header;
+
